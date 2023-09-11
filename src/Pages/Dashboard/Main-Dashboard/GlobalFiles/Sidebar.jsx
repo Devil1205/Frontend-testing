@@ -219,7 +219,7 @@ const Sidebar = () => {
                 </div>
               </Link>
             ) : null}
-            <Link className="link" activeclassname="active" to={"/rooms"}>
+            {/* <Link className="link" activeclassname="active" to={"/rooms"}>
               <div className="icon">
                 <MdBedroomChild className="mainIcon" />
               </div>
@@ -229,7 +229,7 @@ const Sidebar = () => {
               >
                 Beds
               </div>
-            </Link>
+            </Link> */}
             {user?.userType === "doctor" ? (
               <Link className="link" activeclassname="active" to={"/reports"}>
                 <div className="icon">
@@ -243,7 +243,7 @@ const Sidebar = () => {
                 </div>
               </Link>
             ) : null}
-            {user?.userType === "doctor" ? (
+            {/* {user?.userType === "doctor" ? (
               <Link
                 className="link"
                 activeclassname="active"
@@ -259,7 +259,7 @@ const Sidebar = () => {
                   Appointments
                 </div>
               </Link>
-            ) : null}
+            ) : null} */}
             {user?.userType === "doctor" ? (
               <Link
                 className="link"
